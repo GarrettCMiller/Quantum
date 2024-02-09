@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Base Files">
+      <UniqueIdentifier>{cb751a3e-8021-45f4-98c2-ce6cfcadc758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dialogs">
+      <UniqueIdentifier>{e1f2da54-1582-47fb-b808-d527af864ab2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dialogs\Particle Options">
+      <UniqueIdentifier>{f2d0b3f4-0e24-4e44-9457-efc8bb79c696}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dialogs\Misc Options">
+      <UniqueIdentifier>{a20d6647-8202-4855-bf5e-3d68800b590f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dialogs\Util Dialogs">
+      <UniqueIdentifier>{a233474f-8d4a-4c6b-9a08-9e41982cf996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\particle">
+      <UniqueIdentifier>{29e69a5a-d21b-441d-a110-13f9d8e9db59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Windows">
+      <UniqueIdentifier>{bad9c042-9868-4d86-9bc3-b714397a37e2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ChildView.cpp">
+      <Filter>Source Files\Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files\Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Quantum.cpp">
+      <Filter>Source Files\Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files\Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AppearanceDlg.cpp">
+      <Filter>Source Files\Dialogs\Particle Options</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorDlg.cpp">
+      <Filter>Source Files\Dialogs\Particle Options</Filter>
+    </ClCompile>
+    <ClCompile Include="GenProps.cpp">
+      <Filter>Source Files\Dialogs\Particle Options</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementDlg.cpp">
+      <Filter>Source Files\Dialogs\Particle Options</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystemsDlg.cpp">
+      <Filter>Source Files\Dialogs\Particle Options</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysProps.cpp">
+      <Filter>Source Files\Dialogs\Particle Options</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputDlg.cpp">
+      <Filter>Source Files\Dialogs\Misc Options</Filter>
+    </ClCompile>
+    <ClCompile Include="StatisticsDlg.cpp">
+      <Filter>Source Files\Dialogs\Misc Options</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewOptions.cpp">
+      <Filter>Source Files\Dialogs\Misc Options</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgDropSrc.cpp">
+      <Filter>Source Files\Dialogs\Util Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyDock.cpp">
+      <Filter>Source Files\Dialogs\Util Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorProps.cpp">
+      <Filter>Source Files\Dialogs\Util Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveProperties.cpp">
+      <Filter>Source Files\Dialogs\Util Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Source Files\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleEmitter.cpp">
+      <Filter>Source Files\particle</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChildView.h">
+      <Filter>Source Files\Base Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Source Files\Base Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Quantum.h">
+      <Filter>Source Files\Base Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Source Files\Base Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source Files\Base Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AppearanceDlg.h">
+      <Filter>Source Files\Dialogs\Particle Options</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorDlg.h">
+      <Filter>Source Files\Dialogs\Particle Options</Filter>
+    </ClInclude>
+    <ClInclude Include="GenProps.h">
+      <Filter>Source Files\Dialogs\Particle Options</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementDlg.h">
+      <Filter>Source Files\Dialogs\Particle Options</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystemsDlg.h">
+      <Filter>Source Files\Dialogs\Particle Options</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysProps.h">
+      <Filter>Source Files\Dialogs\Particle Options</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputDlg.h">
+      <Filter>Source Files\Dialogs\Misc Options</Filter>
+    </ClInclude>
+    <ClInclude Include="StatisticsDlg.h">
+      <Filter>Source Files\Dialogs\Misc Options</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewOptions.h">
+      <Filter>Source Files\Dialogs\Misc Options</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgDropSrc.h">
+      <Filter>Source Files\Dialogs\Util Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyDock.h">
+      <Filter>Source Files\Dialogs\Util Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorProps.h">
+      <Filter>Source Files\Dialogs\Util Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveProperties.h">
+      <Filter>Source Files\Dialogs\Util Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>Source Files\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="ForceMgr.h">
+      <Filter>Source Files\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Source Files\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleEmitter.h">
+      <Filter>Source Files\particle</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ico00001.ico">
+      <Filter>Resource Files\Windows</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>Resource Files\Windows</Filter>
+    </Image>
+    <Image Include="res\icon2.ico">
+      <Filter>Resource Files\Windows</Filter>
+    </Image>
+    <Image Include="res\Quantum.ico">
+      <Filter>Resource Files\Windows</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files\Windows</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Quantum.rc">
+      <Filter>Resource Files\Windows</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Quantum.rc2">
+      <Filter>Resource Files\Windows</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CustomVars.fx">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Globals.fx">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Lighting.fx">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Map.fx">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Particle.fx">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Quantum.exe.manifest">
+      <Filter>Resource Files\Windows</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
